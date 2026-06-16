@@ -1,0 +1,4 @@
+**/config.md
+**/sources.md
+**/*.secrets.md
+.DS_Store
