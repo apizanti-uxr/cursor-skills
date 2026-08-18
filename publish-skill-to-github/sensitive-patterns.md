@@ -10,7 +10,7 @@ the corresponding placeholder.
 | Pattern | Example | Regex hint | Placeholder |
 |---------|---------|------------|-------------|
 | Email address | `you@company.com` | `[\w.+\-]+@[\w\-]+\.\w+` | `YOUR_EMAIL@company.com` |
-| UUID / cloud tenant ID | `2b9e35e3-6bd3-4cec-b838-f4249ee02432` | `[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}` | `YOUR_CLOUD_ID` |
+| UUID / cloud tenant ID | `00000000-0000-0000-0000-000000000000` | `[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}` | `YOUR_CLOUD_ID` |
 | Google Drive folder ID | appears after `/folders/` or in Drive search queries | alphanumeric 28–44 chars | `YOUR_DRIVE_FOLDER_ID` |
 | Google Doc / Sheet / Slides ID | appears after `/d/` in docs/sheets/presentations URLs | alphanumeric 44 chars | `YOUR_DRIVE_FILE_ID` |
 | Atlassian org ID | integer in Atlassian API calls | `"id":\s*\d{7,}` | `YOUR_ATLASSIAN_ORG_ID` |
@@ -30,7 +30,7 @@ the corresponding placeholder.
 
 | Pattern | When to flag | Placeholder |
 |---------|--------------|-------------|
-| Colleague name (contact reference) | e.g. "contact Peter Kreuser if missing" | `[Your team contact]` |
+| Colleague name (contact reference) | e.g. "contact [Your team contact] if missing" | `[Your team contact]` |
 | Personal name in config | assigned user, default assignee | `[Your name]` |
 | Internal team or group name | team-specific labels or codes | Ask user whether to keep or replace |
 

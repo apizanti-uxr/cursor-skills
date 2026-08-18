@@ -100,8 +100,8 @@ Present a summary table before touching anything:
 ```
 File                  | Line | Original value                       | Replacement
 SKILL.md              |  27  | you@company.com                      | YOUR_EMAIL@company.com
-SKILL.md              |  62  | 2b9e35e3-...-ee02432                 | YOUR_ATLASSIAN_CLOUD_ID
-SKILL.md              |  63  | 1yW2GbqKThAsk...VBo1                 | YOUR_DRIVE_FOLDER_ID
+SKILL.md              |  62  | YOUR_ATLASSIAN_CLOUD_ID               | YOUR_ATLASSIAN_CLOUD_ID
+SKILL.md              |  63  | YOUR_DRIVE_FOLDER_ID                  | YOUR_DRIVE_FOLDER_ID
 SKILL.md              |  28  | yourcompany.atlassian.net            | YOUR_COMPANY.atlassian.net
 
 Config extraction proposed:
